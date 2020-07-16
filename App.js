@@ -1,11 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
-
+import { SplashScreen } from 'expo';
+SplashScreen.preventAutoHide();
+setTimeout(SplashScreen.hide, 5000);
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Open up App.js</Text>
       <StatusBar style="auto" />
     </View>
   );
