@@ -144,5 +144,58 @@ export const globalStyles = StyleSheet.create({
         flexDirection:'row',
         width:width_proportion,
         marginTop:10
+    },
+    recommended:{
+        borderRadius:10,
+        shadowColor: 'rgba(0,0,0,0.1)',
+        shadowOffset: { width: 3, height: 20 },
+        shadowOpacity: 0.8,
+        shadowRadius: 15,
+        elevation: 2,
+        backgroundColor:'#ffffff',
+        marginTop:20,
+        marginBottom:20
+    },
+    recommendedHeader:{
+        backgroundColor:'#ffa500',
+        padding:10,
+        borderTopRightRadius:10,
+        borderTopLeftRadius:10,
+    },
+    title:{
+        textAlign:'center',
+        fontSize:20,
+        fontWeight:'bold',
+        color:'#ffffff'
+    },
+    recommendedBody:{
+        justifyContent:'space-between',
+        alignItems:'stretch',
+        flexDirection:'row',
+        flexWrap:'wrap',
+    },
+    productBox:{
+        width:'50%',
+        borderColor:'#cecece',
+        borderWidth:1,
+        borderWidth:1,
+        padding:10
+    },
+    productBoxImageBox:{
+        height:100,
+        justifyContent:'center',
+        alignItems:'center'
+    },
+    productBoxImage:{
+        height:50,
+        resizeMode:'contain'
+    },
+    btcPrice:{
+        textAlign:'center'
+    },
+    productFlexBetweenRow:{
+        justifyContent:'space-between',
+        alignItems:'center',
+        flexDirection:'row'
     }
 })
